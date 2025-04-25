@@ -11,7 +11,3 @@ phases:
   build:
     commands:
       - ng test --no-watch -no-progress --browser=ChromeHeadlessCI
-artifacts:
-  base-directory: dist/my-angular-project
-  files:
-    - '**/*'
